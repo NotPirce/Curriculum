@@ -40,7 +40,7 @@ html {
   font-weight: 100;
   transition: background-color 0.3s ease;
   transition: transform 0.3s;
-  box-shadow: 2px 2px 1px 0;
+  box-shadow: 2px 2px 1px 0 var(--negro);
   margin-bottom: 2rem;
   letter-spacing: 0.2rem;
 }
@@ -146,11 +146,6 @@ html {
 .boton:hover {
   background-color: bisque;
   text-decoration: underline;
-}
-
-.contenedor {
-  width: 90%;
-  margin: 0 auto;
 }
 
 .ilustracion {
